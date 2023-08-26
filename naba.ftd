@@ -14,7 +14,6 @@ ftd.color border-color: $inherited.colors.border-strong
 width.fixed.px: 600
 height.fixed.px: 600
 background.solid: lightgrey
-color: $page.text-color
 border-width.px: 5
 border-color: lightgrey
 margin-vertical.px: 50
