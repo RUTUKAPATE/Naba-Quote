@@ -3,12 +3,11 @@
 
 -- ftd.container:
 
--- naba.page:
-title: Quote
-body: There is nothing impossible to those who will try.
+-- naba.page: Quote
 img1: $assets.files.author.jpg
-text-color: $naba.monochrome-dark
-bg-color: $naba.monochrome-light
+link1: https://en.wikipedia.org/wiki/Alexander_the_Great
 author: ~Alexander
+
+There is nothing impossible to those who will try.
 
 -- end: ftd.container
