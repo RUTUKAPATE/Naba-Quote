@@ -4,6 +4,7 @@
 caption title:
 body body:
 string author:
+string link1:
 ftd.image-src img1:
 children wrap:
 ftd.color text-color: $inherited.colors.text-strong
@@ -49,7 +50,7 @@ spacing.fixed.px: 10
 
 -- ftd.image: 
 src: $page.img1
-link: https://en.wikipedia.org/wiki/Alexander_the_Great
+link: $page.link1
 width.fixed.px: 50
 height.fixed.px: 50
 border-radius.percent: 50
@@ -73,11 +74,3 @@ children: $page.wrap
 -- end: ftd.container
 
 -- end: page
-
--- ftd.color monochrome-dark:
-light: black
-dark: black
-
--- ftd.color monochrome-light:
-light: white
-dark: white
