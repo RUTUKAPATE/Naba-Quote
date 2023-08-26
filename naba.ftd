@@ -9,27 +9,23 @@ ftd.image-src img1:
 children wrap:
 ftd.color text-color: $inherited.colors.text-strong
 ftd.color bg-color: $inherited.colors.background.base
-ftd.color border-color: $inherited.colors.border-strong
 
 -- ftd.container:
 width.fixed.px: 600
 height.fixed.px: 600
-background.solid: lightgrey
+background.solid: $page.bg-color
 color: $page.text-color
 border-width.px: 5
-border-color: lightgrey
-margin-vertical.px: 50
-margin-horizontal.px: 50 
+border-color: $page.bg-color
 padding.px: 50
 types: $my-types.types
 
 -- ftd.container:
 width.fixed.px: 500
 height.fixed.px: 500
-background.solid: white
+background.solid: $page.bg-color
 color: $page.text-color
 border-width.px: 5
-border-color: white
 border-radius.percent: 50
 margin-horizontal.px: -200
 
