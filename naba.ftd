@@ -1,0 +1,83 @@
+-- import: my-types
+
+-- component page:
+caption title:
+body body:
+string author:
+ftd.image-src img1:
+children wrap:
+ftd.color text-color: $inherited.colors.text-strong
+ftd.color bg-color: $inherited.colors.background.base
+ftd.color border-color: $inherited.colors.border-strong
+
+-- ftd.container:
+width.fixed.px: 600
+height.fixed.px: 600
+background.solid: lightgrey
+color: $page.text-color
+border-width.px: 5
+border-color: lightgrey
+margin-vertical.px: 50
+margin-horizontal.px: 50 
+padding.px: 50
+types: $my-types.types
+
+-- ftd.container:
+width.fixed.px: 500
+height.fixed.px: 500
+background.solid: white
+color: $page.text-color
+border-width.px: 5
+border-color: white
+border-radius.percent: 50
+margin-horizontal.px: -200
+
+-- end: ftd.container
+
+-- ftd.container:
+width.fixed.px: 500
+height.fixed.px: 500
+margin-top.px: -400
+
+-- ftd.text: $page.body
+padding-bottom.px: 30
+color: $page.text-color
+role: $inherited.types.heading-medium
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- ftd.image: 
+src: $page.img1
+link: https://en.wikipedia.org/wiki/Alexander_the_Great
+width.fixed.px: 50
+height.fixed.px: 50
+border-radius.percent: 50
+
+-- ftd.text: $page.author
+text-align: center
+padding-top.px: 15
+role: $inherited.types.copy-regular
+color: $page.text-color
+
+-- end: ftd.row
+
+-- ftd.column:
+width: fill-container
+children: $page.wrap
+
+-- end: ftd.column
+
+-- end: ftd.container
+
+-- end: ftd.container
+
+-- end: page
+
+-- ftd.color monochrome-dark:
+light: black
+dark: black
+
+-- ftd.color monochrome-light:
+light: white
+dark: white
