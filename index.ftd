@@ -6,7 +6,7 @@
 -- naba.page:
 title: Quote
 body: There is nothing impossible to those who will try.
-img1: $assets.files.alexander.jpg
+img1: $assets.files.author.jpg
 text-color: $naba.monochrome-dark
 bg-color: $naba.monochrome-light
 author: ~Alexander
